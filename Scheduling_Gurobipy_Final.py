@@ -4,9 +4,9 @@ import gurobipy as gp
 from gurobipy import GRB
 from openpyxl import Workbook
 
-number_machines = 4
+number_machines = 6
 number_jobs = 10
-iterations = 55
+iterations = 100
 M = 100
 
 file_path = 'C:/Users/oguzt/PycharmProjects/shahin_new_results/'+str(number_machines) + 'Machines_' + str(number_jobs) + 'Jobs.xlsx'
